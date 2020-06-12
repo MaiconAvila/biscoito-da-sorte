@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/biscoito-da-sorte/precache-manifest.89d305f38ec2aaee6c174f8e8dbaaeed.js"
+  "/biscoito-da-sorte/precache-manifest.20f1114f39a5e8a89387e9f43e1e6670.js"
 );
 
 self.addEventListener('message', (event) => {

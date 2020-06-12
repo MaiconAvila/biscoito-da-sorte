@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/biscoito-da-sorte/static/js/main.30824026.chunk.js",
-    "main.js.map": "/biscoito-da-sorte/static/js/main.30824026.chunk.js.map",
+    "main.js": "/biscoito-da-sorte/static/js/main.de4f5c88.chunk.js",
+    "main.js.map": "/biscoito-da-sorte/static/js/main.de4f5c88.chunk.js.map",
     "runtime-main.js": "/biscoito-da-sorte/static/js/runtime-main.743c6c8d.js",
     "runtime-main.js.map": "/biscoito-da-sorte/static/js/runtime-main.743c6c8d.js.map",
-    "static/js/2.af5daf67.chunk.js": "/biscoito-da-sorte/static/js/2.af5daf67.chunk.js",
-    "static/js/2.af5daf67.chunk.js.map": "/biscoito-da-sorte/static/js/2.af5daf67.chunk.js.map",
+    "static/js/2.4f9dc074.chunk.js": "/biscoito-da-sorte/static/js/2.4f9dc074.chunk.js",
+    "static/js/2.4f9dc074.chunk.js.map": "/biscoito-da-sorte/static/js/2.4f9dc074.chunk.js.map",
     "index.html": "/biscoito-da-sorte/index.html",
-    "precache-manifest.89d305f38ec2aaee6c174f8e8dbaaeed.js": "/biscoito-da-sorte/precache-manifest.89d305f38ec2aaee6c174f8e8dbaaeed.js",
+    "precache-manifest.20f1114f39a5e8a89387e9f43e1e6670.js": "/biscoito-da-sorte/precache-manifest.20f1114f39a5e8a89387e9f43e1e6670.js",
     "service-worker.js": "/biscoito-da-sorte/service-worker.js",
-    "static/js/2.af5daf67.chunk.js.LICENSE.txt": "/biscoito-da-sorte/static/js/2.af5daf67.chunk.js.LICENSE.txt",
+    "static/js/2.4f9dc074.chunk.js.LICENSE.txt": "/biscoito-da-sorte/static/js/2.4f9dc074.chunk.js.LICENSE.txt",
     "static/media/BiscoitoSorte.jpg": "/biscoito-da-sorte/static/media/BiscoitoSorte.1937594f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.743c6c8d.js",
-    "static/js/2.af5daf67.chunk.js",
-    "static/js/main.30824026.chunk.js"
+    "static/js/2.4f9dc074.chunk.js",
+    "static/js/main.de4f5c88.chunk.js"
   ]
 }

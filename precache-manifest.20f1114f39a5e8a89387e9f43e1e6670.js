@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "19ea5e70a52cd9b90c4079c0ba4910e6",
+    "revision": "f0dec3cd92b2932345a3f026b04d8926",
     "url": "/biscoito-da-sorte/index.html"
   },
   {
-    "revision": "08b9251c04736271dee5",
-    "url": "/biscoito-da-sorte/static/js/2.af5daf67.chunk.js"
+    "revision": "ece3e53dd389bf67d369",
+    "url": "/biscoito-da-sorte/static/js/2.4f9dc074.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/biscoito-da-sorte/static/js/2.af5daf67.chunk.js.LICENSE.txt"
+    "revision": "216e537bacc64f9dbaabd26649a9ab95",
+    "url": "/biscoito-da-sorte/static/js/2.4f9dc074.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d8aa40ab3d4ae60973f7",
-    "url": "/biscoito-da-sorte/static/js/main.30824026.chunk.js"
+    "revision": "2adae066fe67a31a5f4e",
+    "url": "/biscoito-da-sorte/static/js/main.de4f5c88.chunk.js"
   },
   {
     "revision": "42dddea734258ddc8af2",
