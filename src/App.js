@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import biscoitoDaSorte from './BiscoitoSorte.jpg';
+import wIcon from './wIcon.png';
 
 export const Container = styled.div`
   display: flex;
@@ -14,7 +15,7 @@ export const Generator = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  padding: 2% 5%;
+  padding: 1% 5%;
   max-width: 600px;
   width: 600px;
   height: 60vh;
@@ -28,15 +29,23 @@ export const Generator = styled.div`
   }
 
   button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 5px;
     color: #2C2D31;
     background: #fff;
-    width: 50%;
+    width: 60%;
     height: 3rem;
     font-size: 1.2rem;
     font-weight: bold;
     cursor: pointer;
     box-shadow: 5px 5px #73590F;
+
+    img {
+      width: 30px;
+      margin-right: .5rem;
+    }
   }
 
   p {
@@ -76,11 +85,18 @@ class App extends Component {
   }
 
   handleGenerator = () => {
-    this.randomItem = this.state.luck[Math.floor(Math.random()*this.state.luck.length)];
+    const randomItem = this.state.luck[Math.floor(Math.random()*this.state.luck.length)];
+    // this.randomItem = this.state.luck[1];
+    // console.log(Math.floor(Math.random()*this.state.luck.length))
 
     this.setState({
-      luckShow: this.randomItem,
+      luckShow: randomItem,
     })
+  }
+
+  share = () => {
+    const mensage = this.state.luckShow;
+    window.open(`https://web.whatsapp.com/send?text=${mensage}`)
   }
   
   render() {
@@ -92,6 +108,9 @@ class App extends Component {
           type="button"
           onClick={this.handleGenerator}
           >Abrir o biscoito</button>
+
+          <button onClick={this.share}><img src={wIcon} alt="Icone do WhatsApp" />Compartilhar</button>
+
         <p>{this.state.luckShow}</p>
       </Generator>
       </Container>
